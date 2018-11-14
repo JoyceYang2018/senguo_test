@@ -1,0 +1,28 @@
+2018-11-13 17:41:14,386 - root - WARNING - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - <module> - 12 - warn message
+2018-11-13 17:41:14,386 - root - ERROR - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - <module> - 13 - error message
+2018-11-13 17:41:14,386 - root - CRITICAL - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - <module> - 14 - critical message
+2018-11-13 17:44:15,132 - root - WARNING - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - TestLogging - 14 - warn message
+2018-11-13 17:44:15,132 - root - ERROR - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - TestLogging - 15 - error message
+2018-11-13 17:44:15,132 - root - CRITICAL - /home/yang/working/testyang/logging/config_logging.py - config_logging.py - TestLogging - 16 - critical message
+2018-11-13 17:47:30,737 - root - WARNING - warn message
+2018-11-13 17:47:30,737 - root - ERROR - error message
+2018-11-13 17:47:30,737 - root - CRITICAL - critical message
+2018-11-13 17:55:07,698 - simple - WARNING - warn message
+2018-11-13 17:55:07,698 - simple - ERROR - error message
+2018-11-13 17:55:07,698 - simple - CRITICAL - critical message
+2018-11-13 17:55:34,813 - simple - WARNING - warn message
+2018-11-13 17:55:34,813 - simple - ERROR - error message
+2018-11-13 17:55:34,813 - simple - CRITICAL - critical message
+2018-11-13 17:55:44,125 - simple - WARNING - warn message
+2018-11-13 17:55:44,125 - simple - ERROR - error message
+2018-11-13 17:55:44,125 - simple - CRITICAL - critical message
+2018-11-14 18:18:55,421 - root - WARNING - warn message
+2018-11-14 18:18:55,421 - root - ERROR - error message
+2018-11-14 18:18:55,421 - root - CRITICAL - critical message
+2018-11-14 18:35:23,596 - root - WARNING - Something Bad Happen
+Traceback (most recent call last):
+  File "/home/yang/working/testyang/logging/code_logging.py", line 39, in <module>
+    print(test([]))
+  File "/home/yang/working/testyang/logging/code_logging.py", line 36, in test
+    return list[1]
+IndexError: list index out of range
